@@ -45,3 +45,7 @@ footer a{color:#fff}
 .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:20px}
 .gallery img{padding:8px;transition:.2s}.gallery img:hover{transform:scale(1.03)}
 @media(max-width:800px){.split{grid-template-columns:1fr}.split.rev>:first-child{order:0}}
+details{background:#fff;border:1px solid #d3e2fb;border-radius:10px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700;color:var(--blue)}
+details p{margin:10px 0 0}
+section ul.check{margin-bottom:16px}
